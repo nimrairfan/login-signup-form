@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./images/fav icon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-1">
+            <h1>Login Form</h1>
+            <form action="" class="login-form">
+                <input type="email" placeholder="Email" >
+                
+                <input type="password" placeholder="Enter Password" name="password" id="passInput">
+                <button onclick="showPass(this)" class="fas fa-lock" id="showpass"></button>
+                <a href="#" class="forget-pass">Forget password?</a>
+                <button id="login-btn">LOGIN</button>
+                <h3>Or login with</h3>
+                <div class="link-btn">
+                <button id="facbook-btn"> <i class="fab fa-facebook-f"></i> Facbook</button>
+                <button id="instagram-btn"><i class="fab fa-instagram"></i> Instagram</button>
+                <p>Don't Have Account?<a href="./signup.html">SignUp Now</a></p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
